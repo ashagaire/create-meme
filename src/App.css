@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  display: flex;
+  box-shadow: 0px 2.9856px 7.4564px rgba(0,0,0,0.1);
+  background: #2e0268;
+  color: hsl(270, 40%, 98%);
+  align-items: center;
+
+
+}
+.header-img{
+  height: 50px;
+padding: 20px 20px;
+}
+.header-text{
+  font-size: 30px;
+  margin-right: auto;
+
+}
+.header-subtext{
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 50px;
+}
+
+main {
+  padding: 36px;
+}
+.form {
+  margin-bottom:  20px;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form-button {
+  
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: #2e0268;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
